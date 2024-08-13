@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "animal";
+  src: url("../font/Animal\ Kingdom.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.text-font {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.text-font-2 {
+  font-family: animal;
+}

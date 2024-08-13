@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "animal";
+  src: url("../font/Animal\ Kingdom.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "animal-2";
+  src: url("../font/Animal\ Kingdom\ Layer\ Two.ttf");
+}
+
+::selection {
+  color: #d2de32;
+  background-color: #016a70;
+}
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+  cursor: url("../images/cursor/2.svg"), auto;
+}
+
+.body {
+  background-color: #ffffdd;
+}
+
+#logo {
+  font-family: animal;
+  font-size: 30px;
+  color: #ffffdd;
+}
+
+#nav-container {
+  padding: 0px 33px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffdd;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d2de32;
+}
+
+.bg-custom {
+  background-color: #016a70;
+}
+
+.btn-custom-text {
+  color: #016a70;
+}
+
+.text-font {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.text-font-2 {
+  font-family: animal;
+}
+
+.text-font-3 {
+  font-family: animal-2;
+}
+
+.color-1 {
+  color: #016a70;
+}
+
+.color-2 {
+  color: #ffc107;
+}
+
+.color-3 {
+  color: #aac83e;
+}
+
+.color-4{
+  color: #ffffdd;
+}
+
+.bg-color-1{
+  background-color: #ffffdd;
+}
+
+.outline {
+  -webkit-text-stroke: 0.5px black;
+  color: #9eb23b;
+}
+
+.text-shadow {
+  text-shadow: 3px 3px 0px rgb(159, 159, 159);
+}
+
+.text-btn-size {
+  font-size: larger;
+}
+
+@media (max-width: 768px) {
+  .card-title-1 {
+    font-size: 1.5rem;
+  }
+
+  .btn-max {
+    font-size: 0.875rem;
+  }
+}
+
+/*  */
+#slider.owl-theme .owl-nav {
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#slider.owl-carousel .owl-nav button.owl-prev {
+  margin-left: 40px;
+}
+#slider.owl-carousel .owl-nav button.owl-next {
+  margin-right: 40px;
+}
+#slider.owl-carousel .owl-nav button {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  color: white !important;
+  border-radius: 50% !important;
+  transition: 0.4s;
+}
+#slider.owl-carousel .owl-nav button:hover {
+  background-color: rgba(139, 136, 136, 0.027) !important;
+  color: black !important;
+}
+
+#slider.owl-theme .owl-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+#slider.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 2px;
+  background-color: red;
+  transition: 0.4s;
+}
+#slider.owl-theme .owl-dots .owl-dot.active span {
+  background-color: yellow;
+  width: 30px;
+  height: 4px;
+}
+#slider.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: yellow;
+}
+.flex {
+  display: flex;
+}
+* {
+  margin: 0;
+}
+.box {
+  text-align: center;
+  transform: scale(0.7);
+  transition: 0.4s;
+  opacity: 0.5;
+}
+#testimonial.owl-carousel .owl-item.active.center .box {
+  transform: scale(1);
+  opacity: 1;
+}
+#testimonial.owl-carousel .owl-stage-outer {
+  padding: 50px 0;
+}
+
+.active{
+  color: #aac83e;
+}
