@@ -1,0 +1,28 @@
+  =>  Template Name    : MEDINOVA - Hospital Website Template
+
+  =>  Template Link    : https://htmlcodex.com/hospital-website-template
+
+  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+
+  =>  Template Author  : HTML Codex
+
+  =>  Author Website   : https://htmlcodex.com
+
+  =>  About HTML Codex : HTML Codex is one of the top creators and publishers of Free HTML templates, HTML landing pages, HTML email templates and HTML snippets in the world. Read more at ( https://htmlcodex.com/about-us )
+
+
+
+  $name = $_POST['name'];
+  $mb = $_POST['mobno'];
+  $em = $_POST['email'];
+  $add = $_POST['address'];
+  $evd = $_POST['ev_date'];
+  $nevd = $_POST['end_ev_date'];
+  $evt = $_POST['ev_type'];
+  $the = $_POST['theme'];
+  $eid = $_POST['e_id'];
+  $them= $_POST['t_id'];
+  $price = $_POST['price'];
+  $tprice = $_POST['t_price'];
+  $info = $_POST['add_info'];
+  print_r($_POST);
